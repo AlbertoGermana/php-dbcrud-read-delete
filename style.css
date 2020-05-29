@@ -1,0 +1,18 @@
+.pagante{
+  width: 600px;
+  height: 25px;
+  border: 1px solid black;
+  margin-bottom: 1px;
+  position: relative;
+}
+
+.pagante i{
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 5px;
+  cursor: pointer;
+}
+.pagante p{
+  margin: 0;
+}
