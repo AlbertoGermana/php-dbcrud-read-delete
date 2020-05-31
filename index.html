@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <!-- FONT: FONTAWESOME -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
     <!-- JS: JQUERY -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- JS: HANDLEBARS -->
@@ -15,15 +16,17 @@
     <script id="pagante-template" type="text/x-handlebars-template">
       <div class="pagante" data-id="{{id}}">
         <i class="delete fas fa-trash-alt"></i>
-        <p class="title">{{name}}  |  {{lastname}}  |  {{address}})</p>
+        <p class="title">{{name}} {{lastname}}<br>{{address}})</p>
       </div>
     </script>
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
   </head>
   <body>
-    <div id="paganti">    </div>
 
+    <h1>Invitati a cena</h1>
+    <div id="paganti">
+    </div>
 
   </body>
 </html>

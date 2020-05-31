@@ -1,8 +1,24 @@
+body{
+  font-family: 'Architects Daughter', cursive;
+}
+#paganti{
+  width: 100vw;
+  height: calc(100vh - 30px);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: Wheat;
+  border-radius: 5px;
+}
+h1{
+  height: 30px;
+  text-align: center;
+}
 .pagante{
-  width: 600px;
-  height: 25px;
-  border: 1px solid black;
-  margin-bottom: 1px;
+  width: 50%;
+  border: 1px solid SaddleBrown;
+  border-radius: 5px;
+  margin: 5px;
   position: relative;
 }
 
@@ -12,7 +28,11 @@
   top: 0;
   margin: 5px;
   cursor: pointer;
+  color: Chocolate;
 }
 .pagante p{
   margin: 0;
+  padding: 5px;
+  background-color: GoldenRod;
+  color: SaddleBrown;
 }
